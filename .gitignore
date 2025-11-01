@@ -33,3 +33,5 @@ go.work.sum
 
 boot.dev-go-pokedex-cli
 repl.log
+catch
+inspect

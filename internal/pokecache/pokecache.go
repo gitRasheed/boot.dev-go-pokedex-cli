@@ -38,7 +38,6 @@ func (c *Cache) Get(key string) ([]byte, bool) {
     if !ok {
         return nil, false
     }
-    // return a copy to avoid external mutation
     return append([]byte(nil), e.val...), true
 }
 
